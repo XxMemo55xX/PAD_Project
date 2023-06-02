@@ -118,7 +118,7 @@ def generuj_wykres(dane):
 
 
 def main():
-    folder = "C:/Users/szymon.wujec/OneDrive - JLL/Desktop/Szymon/PJATK/PAD/H7/output"
+    folder = "/PAD/H7/output"
     nazwa_pliku = os.path.join(folder, "wyniki.csv")
     if not os.path.exists(folder):
         os.makedirs(folder)
